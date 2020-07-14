@@ -45,3 +45,22 @@ Tue, 14 Jul 2020 12:00:40 GMT
 Secret message is:
 "Docker is easy"
 ```
+
+## 1.5
+Assuming included file `Dockerfile5`.
+
+```
+path:\> docker build -f Dockerfile5 -t ex5 .
+path:\>docker run -it --rm ex5
+root@da2da7f65415:/# sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+```
