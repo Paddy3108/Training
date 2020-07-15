@@ -64,3 +64,60 @@ Searching..
 <p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
 </body></html>
 ```
+
+## 1.6
+Assuming included file `Dockerfile6`.
+
+```
+path:\> docker build -f Dockerfile6 -t  docker-clock .
+[...]
+Successfully tagged docker-clock:latest
+path:\>docker run docker-clock
+1
+2
+3
+4
+5
+6
+[..]
+```
+
+## 1.7
+Assuming included file `Dockerfile7`.
+
+```
+path:\> docker build -f Dockerfile7 -t  curler .
+Input website:
+helsinki.fi
+: bad variable name
+Searching..
+sleep: invalid time interval '1\r'
+Try 'sleep --help' for more information.
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+```
+
+## 1.8
+```
+path:\>docker run -it --rm -v "%cd%"/log.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+Wrote to file /usr/app/logs.txt
+^CClosing file
+```
+
+## 1.9
+```
+path:\>docker run -d --rm -p 8080:80 devopsdockeruh/ports_exercise
+Unable to find image 'devopsdockeruh/ports_exercise:latest' locally
+latest: Pulling from devopsdockeruh/ports_exercise
+cbdbe7a5bc2a: Pull complete                                                                                             fb0e3739aee1: Pull complete                                                                                             738de7869598: Pull complete                                                                                             ffd68be3d86c: Pull complete                                                                                             d6a92ac5065d: Pull complete                                                                                             8deb0960be38: Pull complete                                                                                             aec7a3bd83e0: Pull complete                                                                                             8f73392c117e: Pull complete                                                                                             Digest: sha256:9779e303353ef47da9ea0223bfbb9fbdb8f8fe39178e2e06153027e28e9e5400
+Status: Downloaded newer image for devopsdockeruh/ports_exercise:latest
+893439b3fe64c44107b34c9ff1d78e5729d26978769ac52caa2cf7d15086451c
+
+path:\>curl http://localhost:8080
+Ports configured correctly!!
+```
