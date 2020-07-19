@@ -121,3 +121,31 @@ Status: Downloaded newer image for devopsdockeruh/ports_exercise:latest
 path:\>curl http://localhost:8080
 Ports configured correctly!!
 ```
+
+## 1.10
+Assuming included file `Dockerfile10`.
+
+```
+path\frontend-example-docker-master>docker build -f "path\Dockerfile10" -t ex10 .
+path:\>docker run --rm -p 5000:5000 ex10:latest
+```
+
+## 1.11
+Code wasn't startable. I moved `cross-env` from `devDependencies` to `dependencies` in `package.json`. After that the application was valid. 
+
+See included `Dockerfile11`.
+
+```
+path\backend-example-docker-master>docker build -f "path\Dockerfile11" -t ex11 .
+path:\>docker run --rm -p 8000:8000 -v "%cd%"/tmp/log.txt:/home/node/logs.txt ex11
+```
+
+## 1.12
+Assuming included files `Dockerfile10`and `Dockerfile11`.
+
+```
+path:\>docker run -d --rm --name front -p 5000:5000 -e API_URL=http://localhost:8000/ ex10:latest
+
+path:\>docker run -d --rm --name back -p 8000:8000 -e FRONT_URL=http://localhost:5000 -v "%cd%"/tmp/log.txt:/home/node/logs.txt ex11:latest
+
+```
