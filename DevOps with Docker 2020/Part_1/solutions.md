@@ -141,7 +141,7 @@ path:\>docker run --rm -p 8000:8000 -v "%cd%"/tmp/log.txt:/home/node/logs.txt ex
 ```
 
 ## 1.12
-Assuming included files `Dockerfile10`and `Dockerfile11`.
+Assuming included files `Dockerfile10` and `Dockerfile11`.
 
 ```
 path:\>docker run -d --rm --name front -p 5000:5000 -e API_URL=http://localhost:8000/ ex10:latest
@@ -149,3 +149,30 @@ path:\>docker run -d --rm --name front -p 5000:5000 -e API_URL=http://localhost:
 path:\>docker run -d --rm --name back -p 8000:8000 -e FRONT_URL=http://localhost:5000 -v "%cd%"/tmp/log.txt:/home/node/logs.txt ex11:latest
 
 ```
+
+## 1.13
+Assuming included file `Dockerfile13`.
+
+```
+path\spring-example-project-master>docker build -f "path\Dockerfile13" -t ex13 .
+path:\>docker run -d --rm -p 8080:8080 ex13:latest
+```
+
+## 1.14 
+Assuming included file `Dockerfile14`
+
+```
+path\rails-example-project-master>docker build -f "path\Dockerfile14" -t ex14 .
+path:\>docker run -d --rm -p 3000:3000 ex14:latest
+```
+
+## 1.15
+TODO
+```
+```
+
+## 1.16
+https://paddy3108-heroku-example.herokuapp.com/
+
+## 1.7
+Skipped
