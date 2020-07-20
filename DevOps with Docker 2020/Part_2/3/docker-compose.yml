@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+    back:
+      image: 'ex11'
+      build: .
+      ports:
+        - 8000:8000
+      volumes: 
+        - ./logs.txt:/usr/app/logs.txt
+    
+    front:
+      image: 'ex10'
+      ports:
+        - 5000:5000
