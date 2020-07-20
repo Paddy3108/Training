@@ -167,12 +167,10 @@ path:\>docker run -d --rm -p 3000:3000 ex14:latest
 ```
 
 ## 1.15
-TODO
-```
-```
+[Docker Hub](https://hub.docker.com/r/paddy310896/hello-world)
 
 ## 1.16
-https://paddy3108-heroku-example.herokuapp.com/
+[Heroku](https://paddy3108-heroku-example.herokuapp.com/)
 
 ## 1.7
 Skipped
