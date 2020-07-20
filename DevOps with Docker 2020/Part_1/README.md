@@ -47,7 +47,7 @@ Secret message is:
 ```
 
 ## 1.5
-Assuming included file `Dockerfile5`.
+See dockerfile `Dockerfile5`.
 
 ```
 path:\> docker build -f Dockerfile5 -t ex5 .
@@ -66,7 +66,7 @@ Searching..
 ```
 
 ## 1.6
-Assuming included file `Dockerfile6`.
+See dockerfile `Dockerfile6`.
 
 ```
 path:\> docker build -f Dockerfile6 -t  docker-clock .
@@ -83,7 +83,7 @@ path:\>docker run docker-clock
 ```
 
 ## 1.7
-Assuming included file `Dockerfile7`.
+See dockerfile `Dockerfile7`.
 
 ```
 path:\> docker build -f Dockerfile7 -t  curler .
@@ -123,7 +123,7 @@ Ports configured correctly!!
 ```
 
 ## 1.10
-Assuming included file `Dockerfile10`.
+See dockerfile `Dockerfile10`.
 
 ```
 path\frontend-example-docker-master>docker build -f "path\Dockerfile10" -t ex10 .
@@ -141,7 +141,7 @@ path:\>docker run --rm -p 8000:8000 -v "%cd%"/tmp/log.txt:/home/node/logs.txt ex
 ```
 
 ## 1.12
-Assuming included files `Dockerfile10` and `Dockerfile11`.
+See dockerfiles `Dockerfile10` and `Dockerfile11`.
 
 ```
 path:\>docker run -d --rm --name front -p 5000:5000 -e API_URL=http://localhost:8000/ ex10:latest
@@ -151,7 +151,7 @@ path:\>docker run -d --rm --name back -p 8000:8000 -e FRONT_URL=http://localhost
 ```
 
 ## 1.13
-Assuming included file `Dockerfile13`.
+See dockerfile `Dockerfile13`.
 
 ```
 path\spring-example-project-master>docker build -f "path\Dockerfile13" -t ex13 .
@@ -159,7 +159,7 @@ path:\>docker run -d --rm -p 8080:8080 ex13:latest
 ```
 
 ## 1.14 
-Assuming included file `Dockerfile14`
+See dockerfile `Dockerfile14`
 
 ```
 path\rails-example-project-master>docker build -f "path\Dockerfile14" -t ex14 .
