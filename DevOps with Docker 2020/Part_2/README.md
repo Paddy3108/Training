@@ -30,3 +30,13 @@ See docker-compose file
 See docker-compose file
 
 [docker-compose.yml](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_2/6/docker-compose.yml)
+
+## 2.7
+See docker-compose file
+
+[docker-compose.yml](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_2/7/docker-compose.yml)
+
+## 2.8
+See docker-compose file
+
+[docker-compose.yml](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_2/8/docker-compose.yml)
