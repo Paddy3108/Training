@@ -7,7 +7,7 @@ services:
       ports:
         - 8000:8000
       volumes: 
-        - ./logs.txt:/usr/app/logs.txt
+        - ./logs.txt:/home/node/logs.txt
     
     front:
       image: 'ex10'

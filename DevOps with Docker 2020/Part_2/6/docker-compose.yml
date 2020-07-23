@@ -15,7 +15,7 @@ services:
       ports:
         - 8000:8000
       volumes: 
-        - ./logs.txt:/usr/app/logs.txt
+        - ./logs.txt:/home/node/logs.txt
       environment: 
         - REDIS=redis
         - DB_USERNAME=postgres

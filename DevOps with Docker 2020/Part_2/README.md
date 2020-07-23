@@ -40,3 +40,13 @@ See docker-compose file
 See docker-compose file
 
 [docker-compose.yml](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_2/8/docker-compose.yml)
+
+## 2.9
+See docker-compose file
+
+[docker-compose.yml](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_2/9/docker-compose.yml)
+
+## 2.10
+Everything works without any changes.
+
+[docker-compose.yml](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_2/9/docker-compose.yml) [Frontend Dockerfile](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_1/Dockerfile10) [Backend Dockerfile](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_1/Dockerfile11)
