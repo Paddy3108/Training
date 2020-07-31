@@ -59,3 +59,5 @@ ef4295e063c7        8 days ago          /bin/sh -c #(nop)  EXPOSE 8000          
 | Frontend | 308mb | 247mb|
 | Backend | 95mb | 30mb|
 
+## 3.6
+[Dockerfile](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/6/Dockerfile)
