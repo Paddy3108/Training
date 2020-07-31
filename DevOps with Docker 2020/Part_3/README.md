@@ -44,4 +44,9 @@ ef4295e063c7        8 days ago          /bin/sh -c #(nop)  EXPOSE 8000          
 <missing>           3 months ago        /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B
 <missing>           3 months ago        /bin/sh -c #(nop) ADD file:b91adb67b670d3a6f…   5.61MB
 ```
+## 3.2
 
+## 3.3
+
+## 3.4
+[Dockerfile Backend](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/4/Dockerfile_backend)[Dockerfile Frontend](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/4/Dockerfile_frontend)
