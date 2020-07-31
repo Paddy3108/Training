@@ -1,0 +1,15 @@
+FROM alpine
+
+WORKDIR /home/app
+
+COPY ex7.sh .
+
+RUN apk add --no-cache curl && \
+	addgroup app && \
+    adduser -D -G app app && \
+    chown -R app:app /home/app/ && \
+    chmod +x /home/app/ex7.sh
+
+USER app
+  
+CMD /home/app/ex7.sh
