@@ -1,0 +1,16 @@
+FROM alpine
+
+
+EXPOSE 5000
+WORKDIR /home/node
+ENV NODE_ENV=production
+
+ADD . .
+
+RUN apk add --no-cache git nodejs nodejs-npm \
+  && npm install \
+  && npm run build
+
+USER node
+
+ENTRYPOINT ["npm", "start"]
