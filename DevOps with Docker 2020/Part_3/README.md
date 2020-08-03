@@ -70,3 +70,7 @@ ef4295e063c7        8 days ago          /bin/sh -c #(nop)  EXPOSE 8000          
 | curler | 42.5mb | 1.32mb|
 
 [Dockerfile_ubuntu](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_1/Dockerfile7) [Dockerfile_alpine](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/7/Dockerfile37)
+
+## 3.8
+### Diagram
+<image src="8/Kubernetes.png"/>
