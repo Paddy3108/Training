@@ -45,6 +45,7 @@ ef4295e063c7        8 days ago          /bin/sh -c #(nop)  EXPOSE 8000          
 <missing>           3 months ago        /bin/sh -c #(nop) ADD file:b91adb67b670d3a6f…   5.61MB
 ```
 ## 3.2
+Skipped
 
 ## 3.3
 
