@@ -1,0 +1,16 @@
+FROM node:10-alpine
+
+USER node
+
+WORKDIR /home/node
+ENV NODE_ENV=production
+
+ADD . .
+
+RUN set -x \
+  && npm install \
+  && npm run build
+
+EXPOSE 5000
+
+ENTRYPOINT ["npm", "start"]
