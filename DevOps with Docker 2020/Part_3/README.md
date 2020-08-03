@@ -48,10 +48,10 @@ ef4295e063c7        8 days ago          /bin/sh -c #(nop)  EXPOSE 8000          
 Skipped
 
 ## 3.3
-[Dockerfile](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/3/Dockerfile) [Skript](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/3/git_shell.sh)
+[Dockerfile](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_3/3/Dockerfile) [Skript](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_3/3/git_shell.sh)
 
 ## 3.4
-[Dockerfile Backend](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/4/Dockerfile_backend)[Dockerfile Frontend](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/4/Dockerfile_frontend)
+[Dockerfile Backend](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_3/4/Dockerfile_backend)[Dockerfile Frontend](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_3/4/Dockerfile_frontend)
 
 ## 3.5
 
@@ -62,7 +62,7 @@ Skipped
 | Backend | 95mb | 30mb|
 
 ## 3.6
-[Dockerfile](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/6/Dockerfile)
+[Dockerfile](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_3/6/Dockerfile)
 
 ## 3.7
 * Dockerfile from exercise 1.7
@@ -71,7 +71,7 @@ Skipped
 | ------| :--------------:| :-----------:|
 | curler | 42.5mb | 1.32mb|
 
-[Dockerfile_ubuntu](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_1/Dockerfile7) [Dockerfile_alpine](https://github.com/Paddy3108/Training/blob/training/docker/DevOps%20with%20Docker%202020/Part_3/7/Dockerfile37)
+[Dockerfile_ubuntu](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_1/Dockerfile7) [Dockerfile_alpine](https://github.com/Paddy3108/Training/blob/master/DevOps%20with%20Docker%202020/Part_3/7/Dockerfile37)
 
 ## 3.8
 ### Diagram
